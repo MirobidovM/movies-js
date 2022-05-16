@@ -5,7 +5,7 @@ let m = 7;
 
 btn.addEventListener("click", watchMore);
 function watchMore() {
-  wrapper.innerHTML = null;
+  // wrapper.innerHTML = null;
   for (let i = n; i <= m; i++) {
     // creating elements
 
