@@ -5,7 +5,7 @@ let m = 7;
 
 btn.addEventListener("click", watchMore);
 function watchMore() {
-  wrapper.innerHTML = null;
+  // wrapper.innerHTML = null;
   for (let i = n; i <= m; i++) {
     // creating elements
 
@@ -45,7 +45,7 @@ function watchMore() {
     elCardItem2.className = "list-group-item";
     elCardItem3.className = "list-group-item";
     elCardLink.className =
-      "btn btn-secondary my-1 text-light mx-auto card-link";
+      "btn btn-secondary my-2 text-light mx-auto card-link";
 
     //Rendering
 
