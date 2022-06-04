@@ -58,12 +58,14 @@ function watchMore() {
     elCardLink.textContent = "Trailer >>";
 
     // Style
+
     elCard.style.width = "17rem";
     elCardLink.href = movies[i].trailer;
     elCardLink.style.cursor = "pointer";
     elCardLink.style.color = "black";
     elCardLink.style.textDecoration = "none";
   }
+
   n += 8;
   m += 8;
 }
