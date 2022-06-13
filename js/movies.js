@@ -6,13 +6,9 @@ var movies = [
     summary:
       "Patton Oswald, despite a personal tragedy, produces his best standup yet. Focusing on the tribulations of the Trump era and life after the loss of a loved one, Patton Oswald continues his journey to contribute joy to the world.",
     imdbId: "tt7026230",
-
     imdbRating: 7.4,
-
     runtime: 66,
-
     language: "English",
-
     trailer: "https://youtube.com/watch?v=4hZi5QaMBFc",
     bigPoster: "http://i3.ytimg.com/vi/4hZi5QaMBFc/maxresdefault.jpg",
     smallPoster: "http://i3.ytimg.com/vi/4hZi5QaMBFc/hqdefault.jpg",
@@ -39,11 +35,8 @@ var movies = [
     summary:
       'In the cruel world of junior high, Edwin suffers in a state of anxiety and alienation alongside his only friend, Flake. Misunderstood by their families and demoralized at school daily, their fury simmers quietly until an idea for vengeance offers them a terrifying release. Based on the acclaimed novel "Project X" by Jim Shepard, this unflinching look at adolescence explores how the powerful bonds of childhood friendship and search for belonging can become a matter of life or death.',
     imdbId: "tt2018111",
-
     imdbRating: 7.6,
-
     runtime: 99,
-
     language: "English",
     trailer: "https://youtube.com/watch?v=8CdIiD6-iF0",
     bigPoster: "http://i3.ytimg.com/vi/8CdIiD6-iF0/maxresdefault.jpg",
