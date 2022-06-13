@@ -34,12 +34,16 @@ var movies = [
   {
     title: "And Then I Go",
     year: 2017,
+
     categories: ["Drama"],
     summary:
       'In the cruel world of junior high, Edwin suffers in a state of anxiety and alienation alongside his only friend, Flake. Misunderstood by their families and demoralized at school daily, their fury simmers quietly until an idea for vengeance offers them a terrifying release. Based on the acclaimed novel "Project X" by Jim Shepard, this unflinching look at adolescence explores how the powerful bonds of childhood friendship and search for belonging can become a matter of life or death.',
     imdbId: "tt2018111",
+
     imdbRating: 7.6,
+
     runtime: 99,
+
     language: "English",
     trailer: "https://youtube.com/watch?v=8CdIiD6-iF0",
     bigPoster: "http://i3.ytimg.com/vi/8CdIiD6-iF0/maxresdefault.jpg",
