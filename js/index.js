@@ -9,6 +9,7 @@ function watchMore() {
   wrapper.innerHTML = null;
   for (let i = n; i <= m; i++) {
     // creating elements
+
     let elCard = createEl('div');
     let elCardImg = createEl('img');
     let elCardWrap = createEl('div');
@@ -21,6 +22,7 @@ function watchMore() {
     let elCardLink = createEl('a');
 
     // appending elements
+
     wrapper.append(elCard);
     elCard.append(elCardImg);
     elCard.append(elCardWrap);
@@ -33,6 +35,7 @@ function watchMore() {
     elCard.append(elCardLink);
 
     //giving Classnames
+
     elCard.className = 'card';
     elCardImg.className = 'card-img-top';
     elCardWrap.className = 'card-body';
@@ -46,6 +49,7 @@ function watchMore() {
       'btn btn-secondary my-2 text-light mx-auto card-link';
 
     //Rendering
+
     elCardImg.src = movies[i].smallPoster;
     elCardTitle.textContent = movies[i].title;
     elCardText.textContent = movies[i].summary;
@@ -55,6 +59,7 @@ function watchMore() {
     elCardLink.textContent = 'Trailer >>';
 
     // Style
+
     elCard.style.width = '17rem';
     elCardLink.href = movies[i].trailer;
     elCardLink.style.cursor = 'pointer';
